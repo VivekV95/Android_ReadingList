@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         preferences = getSharedPreferences(Constants.BOOK_PREFERENCES, Context.MODE_PRIVATE);
         /* SharedPreferences.Editor editor = preferences.edit();
         editor.clear();
-        editor.commit(); */ 
+        editor.commit(); */
 
         bookScrollView = findViewById(R.id.book_scroll_view);
 
